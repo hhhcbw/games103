@@ -177,6 +177,7 @@ public class Rigid_Bunny_by_Shape_Matching : MonoBehaviour
                 // check velocity
                 if (v_N_size < 0.0f)
                 {
+                    //V[i] = V[i] + (P - X[i]) * inv_dt;
                     Vector3 v_N = v_N_size * N;
                     Vector3 v_T = V[i] - v_N;
                     Vector3 v_N_new = -1.0f * restitution * v_N;
@@ -199,6 +200,7 @@ public class Rigid_Bunny_by_Shape_Matching : MonoBehaviour
                 // check velocity
                 if (v_N_size < 0.0f)
                 {
+                    //V[i] = V[i] + (P - X[i]) * inv_dt;
                     Vector3 v_N = v_N_size * N;
                     Vector3 v_T = V[i] - v_N;
                     Vector3 v_N_new = -1.0f * restitution * v_N;

@@ -1,0 +1,4 @@
+repository "lab03@hhhcbw@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

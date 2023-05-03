@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Rigid_Bunny.cs" />
     <Compile Include="Assets\Rigid_Bunny_by_Shape_Matching.cs" />
     <Compile Include="Assets\HelloWorld.cs" />
+    <Compile Include="Assets\Rigid_Bunny.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
